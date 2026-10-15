@@ -62,7 +62,7 @@ def main():
     oferty = []
     if os.path.exists("data/oferty_dzis.json"):
         try:
-            oferty = [o for o in json.load(open("data/oferty_dzis.json", encoding="utf-8")) if o.get("ok")]
+            oferty = [o for o in json.load(open("data/oferty_dzis.json", encoding="utf-8")).get("oferty", []) if o.get("ok")]
             oferty.sort(key=lambda x: x["cena_zl"])
         except Exception:
             oferty = []
