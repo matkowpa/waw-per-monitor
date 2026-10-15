@@ -1,6 +1,9 @@
 name: daily-price-collect
 
 on:
+  push:
+    branches: [main]
+    paths: ['collect.py', 'build_site.py', '.github/workflows/daily.yml', 'data/ceny.json']
   schedule:
     - cron: '0 6 * * *'   # codziennie 06:00 UTC (08:00 WAW)
   workflow_dispatch:
