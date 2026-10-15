@@ -55,6 +55,26 @@ def main():
     tabela = "\n".join(wiersze) or "<tr><td colspan='6'>Brak danych — pierwszy run jeszcze się nie odbył</td></tr>"
     u = urls()
 
+    # Dzisiejsze oferty z Chrome/Google Flights, przefiltrowane twarde kryteria
+    oferty = []
+    if os.path.exists("data/oferty_dzis.json"):
+        try:
+            oferty = [o for o in json.load(open("data/oferty_dzis.json", encoding="utf-8")) if o.get("ok")]
+            oferty.sort(key=lambda x: x["cena_zl"])
+        except Exception:
+            oferty = []
+    oferty_rows = []
+    for o in oferty[:8]:
+        cz = f"{o['czas_h']}h{o.get('czas_min', 0):02d}" if o.get("czas_h") is not None else "—"
+        prz = f"{o['przesiadka_min']//60}h{o['przesiadka_min']%60:02d}" if o.get("przesiadka_min") else "—"
+        warn = ' <span class="alarm">⚠ ≤5 500</span>' if o["cena_zl"] <= ALARM else ""
+        oferty_rows.append(
+            f"<tr><td>{o['wariant']}</td><td><b>{o['cena_zl']:,}</b> zł{warn}</td>"
+            f"<td>{o['linie']}</td><td>{o['przesiadki']}</td><td>{cz}</td><td>{prz} {o.get('przesiadka_gdzie') or ''}</td></tr>"
+        )
+    oferta_tbl = ("\n".join(oferty_rows)
+                  or "<tr><td colspan='6'>Brak ofert spełniających kryteria w ostatnim pomiarze</td></tr>")
+
     html = f"""<!DOCTYPE html>
 <html lang="pl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -75,6 +95,10 @@ Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
 <p><b>Wyniki na żywo — linki z datami i filtrami wpisanej w adres (klik = lista wyników):</b></p>
 <p>🥇 <a href="{u['27.01 → 13.02']}" target="_blank"><b>Google Flights — 27.01 → 13.02</b></a> · <a href="{u['26.01 → 12.02']}" target="_blank">26.01 → 12.02</a> · <a href="{u['28.01 → 14.02']}" target="_blank">28.01 → 14.02</a></p>
 <p><b>Najtańsza w historii: {fmt(najt)} zł</b> · wpisów: {len(dane)} · ostatnia aktualizacja: {dane[-1]['date'] if dane else '—'}</p>
+<h2 style="font-size:1.1rem">Dzisiejsze oferty (Google Flights, przefiltrowane: ≤28 h, przesiadka ≥2 h, maks 2 przesiadki, od najtańszej)</h2>
+<table><thead><tr><th>Wariant</th><th>Cena/os.</th><th>Linie</th><th>Przesiadki</th><th>Czas</th><th>Przesiadka (czas, miejsce)</th></tr></thead>
+<tbody>{oferta_tbl}</tbody></table>
+<h2 style="font-size:1.1rem">Historia pomiarów</h2>
 <table><thead><tr><th>Data</th><th>Cena USD</th><th>Cena PLN</th><th>Kurs NBP</th><th>Źródło</th><th>Obserwacji</th></tr></thead>
 <tbody>{tabela}</tbody></table>
 <p class="note">Dane: <a href="data/ceny.json">data/ceny.json</a> · aktualizacja codziennie ~08:00 czasu PL.</p>
