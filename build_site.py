@@ -48,6 +48,10 @@ th{{background:#f4f4f4;position:sticky;top:0}}
 próg alarmu ≤ 5 500 zł/os. dorosłej · kurs NBP bieżącego dnia.<br>
 <span class="note">Cena = obserwowana w agregatorach (Kayak/Cheapflights/Momondo) — przed zakupem zweryfikuj ręcznie.
 Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
+<p><b>Sprawdź ofertę na żywo (gotowe zapytanie — klik i widzisz ceny):</b></p>
+<p>🌅 <a href="https://www.google.com/travel/flights?q=Flights%20from%20WAW%20to%20PER%20on%202027-01-27%20returning%202027-02-13" target="_blank">Google Flights — WAW→PER 27.01 → 13.02</a></p>
+<p>🧭 <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-27/2027-02-13?sort=price_a" target="_blank">Kayak — WAW→PER 27.01 → 13.02 (sort: cena)</a></p>
+<p>🔁 <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-26/2027-02-12?sort=price_a" target="_blank">Kayak — wariant ±1 dzień: 26.01 → 12.02</a></p>
 <p><b>Najtańsza w historii: {fmt(najt)} zł</b> · wpisów: {len(dane)} · ostatnia aktualizacja: {dane[-1]['date'] if dane else '—'}</p>
 <table><thead><tr><th>Data</th><th>Cena USD</th><th>Cena PLN</th><th>Kurs NBP</th><th>Źródło</th><th>Obserwacji</th></tr></thead>
 <tbody>{tabela}</tbody></table>
