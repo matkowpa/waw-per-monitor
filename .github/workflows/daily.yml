@@ -1,45 +1,34 @@
-name: daily-price-collect
+name: build-site
 
 on:
   push:
     branches: [main]
-    paths: ['collect.py', 'build_site.py', '.github/workflows/daily.yml', 'data/ceny.json']
-  schedule:
-    - cron: '0 6 * * *'   # codziennie 06:00 UTC (08:00 WAW)
+    paths: ['data/ceny.json', 'build_site.py']
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  collect:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Collect prices
-        env:
-          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
-        run: python collect.py
-
-      - name: Commit history
+      - name: Build site
+        run: python build_site.py
+      - name: Commit docs
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ceny.json
-          git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "prices $(date -u +%F)"
-          git push
-
-      - name: Build site
-        run: python build_site.py
-
-      - name: Commit site
-        run: |
           git add docs/
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "site $(date -u +%F)"
