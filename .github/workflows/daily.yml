@@ -1,34 +1,49 @@
-name: build-site
+name: daily-monitor
 
 on:
   push:
     branches: [main]
-    paths: ['data/ceny.json', 'build_site.py']
+    paths: ['collect.py', 'build_site.py', '.github/workflows/daily.yml']
+  schedule:
+    - cron: '0 6 * * *'   # codziennie 06:00 UTC (08:00 WAW)
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: monitor
   cancel-in-progress: true
 
 jobs:
-  build:
+  collect-and-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build site
-        run: python build_site.py
-      - name: Commit docs
+
+      - name: Collect prices (Brave + NBP)
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: python collect.py
+
+      - name: Commit data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ceny.json
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "prices $(date -u +%F)"
+          git push
+
+      - name: Build site
+        run: python build_site.py
+
+      - name: Commit site
+        run: |
           git add docs/
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "site $(date -u +%F)"
