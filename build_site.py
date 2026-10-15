@@ -55,6 +55,9 @@ def main():
     tabela = "\n".join(wiersze) or "<tr><td colspan='6'>Brak danych — pierwszy run jeszcze się nie odbył</td></tr>"
     u = urls()
 
+    # Oferta ręczna usera (kombinacja multi-airline, niewidoczna w standardowych wynikach GF):
+    OFERTA_USERA = ("https://www.google.com/travel/flights/booking?tfs=CBwQAhqBARIKMjAyNy0wMS0yNiIfCgNXQVcSCjIwMjctMDEtMjYaA1NISioCRzkyAzYwNiIfCgNTSEoSCjIwMjctMDEtMjYaA0tVTCoCRzkyAzgwMCIfCgNLVUwSCjIwMjctMDEtMjcaA1BFUioCQUsyAzYwNmoHCAESA1dBV3IHCAESA1BFUhqBARIKMjAyNy0wMi0xMiIfCgNQRVISCjIwMjctMDItMTIaA0tVTCoCQUsyAzYwNyIeCgNLVUwSCjIwMjctMDItMTMaA0lTVCoCVEsyAjYzIiAKA0lTVBIKMjAyNy0wMi0xMxoDV0FXKgJUSzIEMTc2NWoHCAESA1BFUnIHCAESA1dBV0ABSAFwAYIBCwj___8BmAEB&tfu=CnxDalJJVlZCRVZHVnRWVTV0YlRSQlFXSXhVRUZDUnkwdExTMHRMUzB0TFhaMFltZDBPVUZCUVVGQlIzSlNVMll3UVhwTlJDMUJFaEZCU3pZd04zeFVTell6ZkZSTE1UYzJOUm9MQ0xpQ0lCQUNHZ05RVEU0NEhIRFJuQWc9EgYIACACKAEiAwoBMQ&hl=pl&gl=PL&curr=PLN")
+
     # Dzisiejsze oferty z Chrome/Google Flights, przefiltrowane twarde kryteria
     oferty = []
     if os.path.exists("data/oferty_dzis.json"):
@@ -95,6 +98,13 @@ Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
 <p><b>Wyniki na żywo — linki z datami i filtrami wpisanej w adres (klik = lista wyników):</b></p>
 <p>🥇 <a href="{u['27.01 → 13.02']}" target="_blank"><b>Google Flights — 27.01 → 13.02</b></a> · <a href="{u['26.01 → 12.02']}" target="_blank">26.01 → 12.02</a> · <a href="{u['28.01 → 14.02']}" target="_blank">28.01 → 14.02</a></p>
 <p><b>Najtańsza w historii: {fmt(najt)} zł</b> · wpisów: {len(dane)} · ostatnia aktualizacja: {dane[-1]['date'] if dane else '—'}</p>
+<div style="background:#eaf7ea;border:1px solid #8c8;padding:10px;margin:10px 0">
+<b>🎯 Oferta do weryfikacji ręcznej (kombinacja 3 przewoźników — niewidoczna w standardowych wynikach GF):</b><br>
+<b>26.01 → 12.02, 2 przesiadki — zgłoszona cena ~5 200 zł/os. tam i z powrotem</b><br>
+Tam 26.01: WAW →Szarja (Air Arabia G9606, 12:45–20:35) → Kuala Lumpur (G9 800, ~22:35–09:20+1) → Perth (AirAsia X AK606, ~13:25–19:05, 27.01). Powrót 12.02: PER →KUL (AK607, ~22:15–05:35+1) → Istambuł (TK63, 09:45–15:35, 13.02) → WAW (TK1765, ~19:15–21:00).<br>
+Czasy z rozkładów: tam ~24 h 20 min ✓, powrót ~27 h 45 min–28 h 45 min (na granicy 28 h — zweryfikuj przy wyborze).<br>
+Przesiadki ≥2 h na obu kierunkach. <a href="{OFERTA_USERA}" target="_blank"><b>Otwórz ofertę w Google Flights →</b></a>
+</div>
 <h2 style="font-size:1.1rem">Dzisiejsze oferty (Google Flights, przefiltrowane: ≤28 h, przesiadka ≥2 h, maks 2 przesiadki, od najtańszej)</h2>
 <table><thead><tr><th>Wariant</th><th>Cena/os.</th><th>Linie</th><th>Przesiadki</th><th>Czas</th><th>Przesiadka (czas, miejsce)</th></tr></thead>
 <tbody>{oferta_tbl}</tbody></table>
