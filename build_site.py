@@ -4,6 +4,7 @@
 
 import json
 import os
+import shutil
 
 KURS_ZAPAS = 3.90
 ALARM = 5500
@@ -54,6 +55,9 @@ Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
 </body></html>"""
     os.makedirs("docs", exist_ok=True)
     open("docs/index.html", "w", encoding="utf-8").write(html)
+    os.makedirs("docs/data", exist_ok=True)
+    if os.path.exists("data/ceny.json"):
+        shutil.copy("data/ceny.json", "docs/data/ceny.json")
     print(f"docs/index.html zbudowany ({len(dane)} wpisów, najtańsza {najt} zł)")
 
 
