@@ -49,7 +49,7 @@ próg alarmu ≤ 5 500 zł/os. dorosłej · kurs NBP bieżącego dnia.<br>
 <span class="note">Cena = obserwowana w agregatorach (Kayak/Cheapflights/Momondo) — przed zakupem zweryfikuj ręcznie.
 Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
 <p><b>Sprawdź ofertę na żywo — linki otwierają listę wyników z wpisanymi datami:</b></p>
-<p>🥇 <a href="https://www.skyscanner.pl/transport/loty/waw/per/270127/270213?adultsv2=1&cabinclass=economy&rtn=1&maxduration=1500" target="_blank"><b>Skyscanner — 27.01 → 13.02 (czas ≤ 25 h; przesiadki do wyboru)</b></a></p>
+<p>🥇 <a href="https://www.skyscanner.pl/transport/loty/waw/per/270127/270213?adultsv2=1&cabinclass=economy&rtn=1&maxduration=1680&oym=270127-270213" target="_blank"><b>Skyscanner — 27.01 → 13.02 (lot w 1 stronę ≤ 28 h; sortowane od najtańszych)</b></a></p>
 <p>🥈 <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-27/2027-02-13?sort=price_a" target="_blank">Kayak — 27.01 → 13.02, sort po cenie</a> · warianty ±1 dzień: <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-26/2027-02-12?sort=price_a" target="_blank">26.01→12.02</a> · <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-28/2027-02-14?sort=price_a" target="_blank">28.01→14.02</a></p>
 <p>🥉 <a href="https://www.google.com/travel/flights/search?q=loty%20WAW%20do%20PER%202027-01-27%20przez%202027-02-13&hl=pl&gl=PL&curr=PLN" target="_blank">Google Flights — 27.01 → 13.02</a></p>
 <p><b>Najtańsza w historii: {fmt(najt)} zł</b> · wpisów: {len(dane)} · ostatnia aktualizacja: {dane[-1]['date'] if dane else '—'}</p>
