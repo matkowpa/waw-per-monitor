@@ -5,9 +5,32 @@
 import json
 import os
 import shutil
+import base64
 
 KURS_ZAPAS = 3.90
 ALARM = 5500
+
+def gen_tfs(dep, d1, arr, d2):
+    """Deep-link Google Flights (protobuf tfs=): daty wpisane w URL."""
+    def dep_ap(c): return b'\x6a\x07\x08\x01\x12\x03' + c.encode()
+    def arr_ap(c): return b'\x72\x07\x08\x01\x12\x03' + c.encode()
+    def seg(a, d, b):
+        body = dep_ap(a) + b'\x12\x0a' + d.encode() + arr_ap(b)
+        return b'\x1a' + bytes([len(body)]) + body
+    payload = (b'\x08\x1c\x10\x02'
+        + seg(dep, d1, arr) + seg(arr, d2, dep)
+        + b'\x70\x01'
+        + b'\x82\x01\x0b\x08' + b'\xff'*9 + b'\x01'
+        + b'\x40\x01\x48\x01\x98\x01\x01')
+    return base64.urlsafe_b64encode(payload).decode().rstrip('=')
+
+GF_BASE = "https://www.google.com/travel/flights/search?tfs={TFS}&hl=pl&gl=PL&curr=PLN"
+
+def urls():
+    w = [("27.01 → 13.02", "2027-01-27", "2027-02-13"),
+         ("26.01 → 12.02", "2027-01-26", "2027-02-12"),
+         ("28.01 → 14.02", "2027-01-28", "2027-02-14")]
+    return {n: GF_BASE.replace("{TFS}", gen_tfs("WAW", a, "PER", b)) for n, a, b in w}
 
 def fmt(v):
     return "—" if v is None else f"{v:,}".replace(",", " ")
@@ -30,6 +53,7 @@ def main():
 
     najt = min((d["price_pln"] for d in dane if d.get("price_pln")), default=None)
     tabela = "\n".join(wiersze) or "<tr><td colspan='6'>Brak danych — pierwszy run jeszcze się nie odbył</td></tr>"
+    u = urls()
 
     html = f"""<!DOCTYPE html>
 <html lang="pl"><head><meta charset="utf-8">
@@ -44,14 +68,12 @@ th{{background:#f4f4f4;position:sticky;top:0}}
 .note{{color:#666;font-size:.85rem}}
 </style></head><body>
 <h1>✈️ Warszawa → Perth — monitor cen</h1>
-<p><b>Kryteria:</b> wylot 26–28.01.2027, powrót 12–14.02.2027 · 1 przesiadka ≥2–2,5 h · czas ≤ ~25 h ·
+<p><b>Kryteria:</b> wylot 26–28.01.2027, powrót 12–14.02.2027 · przesiadka ≥2–2,5 h · czas lotu ≤ 28 h ·
 próg alarmu ≤ 5 500 zł/os. dorosłej · kurs NBP bieżącego dnia.<br>
-<span class="note">Cena = obserwowana w agregatorach (Kayak/Cheapflights/Momondo) — przed zakupem zweryfikuj ręcznie.
+<span class="note">Ceny czytane bezpośrednio z Google Flights (Chrome na serwerze, codziennie).
 Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
-<p><b>Sprawdź ofertę na żywo — linki otwierają listę wyników z wpisanymi datami:</b></p>
-<p>🥇 <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-27/2027-02-13?sort=price_a&fs=stops=~2;dur=~28" target="_blank"><b>Kayak — 27.01 → 13.02 (≤2 przesiadki, czas ≤28 h, od najtańszych)</b></a> — filtry wpisane w link, wyniki od razu</p>
-<p>🥈 warianty ±1 dzień (te same filtry): <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-26/2027-02-12?sort=price_a&fs=stops=~2;dur=~28" target="_blank">26.01→12.02</a> · <a href="https://www.kayak.pl/flights/WAW,PER/2027-01-28/2027-02-14?sort=price_a&fs=stops=~2;dur=~28" target="_blank">28.01→14.02</a></p>
-<p>🥉 <a href="https://www.skyscanner.pl/transport/loty/waw/per/270127/270213?adultsv2=1&cabinclass=economy&rtn=1" target="_blank">Skyscanner — 27.01 → 13.02</a> (filtr czasu ustaw suwakiem po lewej: „max 28 h")</p>
+<p><b>Wyniki na żywo — linki z datami i filtrami wpisanej w adres (klik = lista wyników):</b></p>
+<p>🥇 <a href="{u['27.01 → 13.02']}" target="_blank"><b>Google Flights — 27.01 → 13.02</b></a> · <a href="{u['26.01 → 12.02']}" target="_blank">26.01 → 12.02</a> · <a href="{u['28.01 → 14.02']}" target="_blank">28.01 → 14.02</a></p>
 <p><b>Najtańsza w historii: {fmt(najt)} zł</b> · wpisów: {len(dane)} · ostatnia aktualizacja: {dane[-1]['date'] if dane else '—'}</p>
 <table><thead><tr><th>Data</th><th>Cena USD</th><th>Cena PLN</th><th>Kurs NBP</th><th>Źródło</th><th>Obserwacji</th></tr></thead>
 <tbody>{tabela}</tbody></table>
