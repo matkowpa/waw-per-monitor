@@ -32,5 +32,13 @@
    1453,
    1565
   ]
+ },
+ {
+  "date": "2026-10-16",
+  "price_pln": 6966,
+  "kurs": 3.8952,
+  "source": "Google Flights (gf-full.js)",
+  "n_ok": 59,
+  "n_odrzucone": 148
  }
 ]
