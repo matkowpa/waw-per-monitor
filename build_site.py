@@ -97,6 +97,7 @@ próg alarmu ≤ 5 500 zł/os. dorosłej · kurs NBP bieżącego dnia.<br>
 Szacunek za 2 osoby (dorosły + dziecko 13 l.): ×1,75–2,00.</span></p>
 <p><b>Wyniki na żywo — linki z datami i filtrami wpisanej w adres (klik = lista wyników):</b></p>
 <p>🥇 <a href="{u['27.01 → 13.02']}" target="_blank"><b>Google Flights — 27.01 → 13.02</b></a> · <a href="{u['26.01 → 12.02']}" target="_blank">26.01 → 12.02</a> · <a href="{u['28.01 → 14.02']}" target="_blank">28.01 → 14.02</a></p>
+<p>🧭 <a href="https://www.skyscanner.pl/transport/loty/waw/per/270127/270213?adultsv2=1&cabinclass=economy&rtn=1" target="_blank"><b>Skyscanner — 27.01 → 13.02</b></a> (daty w adresie; filtr „czas ≤28 h" ustaw suwakiem w panelu — Skyscanner nie przyjmuje go z URL) · <a href="https://www.skyscanner.pl/transport/loty/waw/per/270126/270212?adultsv2=1&cabinclass=economy&rtn=1" target="_blank">26.01 → 12.02</a> · <a href="https://www.skyscanner.pl/transport/loty/waw/per/270128/270214?adultsv2=1&cabinclass=economy&rtn=1" target="_blank">28.01 → 14.02</a></p>
 <p><b>Najtańsza w historii: {fmt(najt)} zł</b> · wpisów: {len(dane)} · ostatnia aktualizacja: {dane[-1]['date'] if dane else '—'}</p>
 <div style="background:#eaf7ea;border:1px solid #8c8;padding:10px;margin:10px 0">
 <b>🎯 Oferta do weryfikacji ręcznej (kombinacja 3 przewoźników — niewidoczna w standardowych wynikach GF):</b><br>
