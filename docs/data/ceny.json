@@ -32,5 +32,15 @@
    1453,
    1565
   ]
+ },
+ {
+  "date": "2026-10-17",
+  "price_usd": 1803.29,
+  "price_pln": 7001,
+  "kurs": 3.8827,
+  "source": "https://www.google.com/travel/flights (gf-full.js)",
+  "title": "GF siatka 35 par dat WAW-PER, 27 ofert OK",
+  "n_cen_w_wyniku": 27,
+  "wszystkie_ceny_usd": []
  }
 ]
