@@ -38,7 +38,7 @@
   "price_usd": 1074,
   "price_pln": 4170,
   "kurs": 3.8827,
-"source": "https://www.momondo.com/flights/perth",
+  "source": "https://www.momondo.com/flights/perth",
   "title": "$538 Cheap Flights to Perth in 2026 | momondo",
   "n_cen_w_wyniku": 2,
   "wszystkie_ceny_usd": [
@@ -51,12 +51,18 @@
  },
  {
   "date": "2026-10-18",
-  "price_usd": 1792.82,
-  "price_pln": 6961,
+  "price_usd": 1074,
+  "price_pln": 4170,
   "kurs": 3.8827,
-  "source": "https://www.google.com/travel/flights (gf-full.js)",
-  "title": "GF siatka 35 par dat WAW-PER, 77 ofert OK",
-  "n_cen_w_wyniku": 77,
-  "wszystkie_ceny_usd": []
+  "source": "https://www.momondo.com/flights/perth",
+  "title": "$538 Cheap Flights to Perth in 2026 | momondo",
+  "n_cen_w_wyniku": 2,
+  "wszystkie_ceny_usd": [
+   1074,
+   1304,
+   1426,
+   1453,
+   1565
+  ]
  }
 ]
