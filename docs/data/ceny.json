@@ -64,5 +64,22 @@
    1453,
    1565
   ]
+ },
+ {
+  "date": "2026-10-19",
+  "price_usd": 1793,
+  "price_pln": 6961,
+  "kurs": 3.8827,
+  "source": "Google Flights (gf-full.js, 35 par 24.01-30.01 x 10.02-16.02)",
+  "title": "Najtansza oferta spelniajaca filtry: Qatar Airways 26.01 -> 12.02, 1 przesiadka Hamad",
+  "n_cen_w_wyniku": 72,
+  "wszystkie_ceny_usd": [
+   1793,
+   1803,
+   1879,
+   1879,
+   1890,
+   1890
+  ]
  }
 ]
