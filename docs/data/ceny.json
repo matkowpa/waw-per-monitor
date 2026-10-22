@@ -112,12 +112,15 @@
  },
  {
   "date": "2026-10-22",
-  "price_usd": 1790.48,
-  "price_pln": 6963,
-  "kurs": 3.8889,
-  "source": "https://www.google.com/travel/flights (gf-full.js)",
-  "title": "GF siatka 35 par dat WAW-PER, 72 ofert OK; najtansza: 26.01 → 12.02 Qatar Airways",
-  "n_cen_w_wyniku": 72,
-  "wszystkie_ceny_usd": []
+  "price_usd": 1074,
+  "price_pln": 4176,
+  "kurs": 3.8886,
+  "source": "https://www.momondo.com/flights/perth",
+  "title": "$538 Cheap Flights to Perth in 2026 | momondo",
+  "n_cen_w_wyniku": 2,
+  "wszystkie_ceny_usd": [
+   1074,
+   1426
+  ]
  }
 ]
