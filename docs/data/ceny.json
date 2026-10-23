@@ -125,12 +125,11 @@
  },
  {
   "date": "2026-10-23",
-  "price_usd": 1790.62,
-  "price_pln": 6963,
-  "kurs": 3.8886,
-  "source": "https://www.google.com/travel/flights (gf-full.js)",
-  "title": "GF siatka 35 par dat WAW-PER, 84 ofert OK; najtansza: 26.01 → 12.02 Qatar Airways",
-  "n_cen_w_wyniku": 84,
-  "wszystkie_ceny_usd": []
+  "price_usd": null,
+  "price_pln": null,
+  "kurs": 3.9247,
+  "source": "brak danych",
+  "title": "",
+  "n_cen_w_wyniku": 0
  }
 ]
