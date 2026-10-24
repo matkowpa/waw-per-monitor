@@ -1,8 +1,8 @@
 {
- "data": "2026-10-23",
+ "data": "2026-10-24",
  "oferty": [
   {
-   "cena_zl": 6963,
+   "cena_zl": 6964,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -18,7 +18,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7003,
+   "cena_zl": 7004,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -34,7 +34,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7298,
+   "cena_zl": 7299,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -50,7 +50,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7298,
+   "cena_zl": 7299,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 26,
@@ -66,7 +66,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7298,
+   "cena_zl": 7299,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -82,7 +82,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7338,
+   "cena_zl": 7339,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -98,7 +98,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7338,
+   "cena_zl": 7339,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 26,
@@ -114,7 +114,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7338,
+   "cena_zl": 7339,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -130,7 +130,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7352,
+   "cena_zl": 7353,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 26,
@@ -146,7 +146,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7373,
+   "cena_zl": 7374,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -173,12 +173,12 @@
    "przesiadki_gdzie": [
     "Port lotniczy Hamad w: Ad-Dauha"
    ],
-   "wariant": "28.01 → 13.02",
+   "wariant": "28.01 → 14.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7383,
+   "cena_zl": 7384,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -189,12 +189,12 @@
    "przesiadki_gdzie": [
     "Port lotniczy Hamad w: Ad-Dauha"
    ],
-   "wariant": "28.01 → 14.02",
+   "wariant": "28.01 → 13.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7392,
+   "cena_zl": 7393,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 26,
@@ -210,7 +210,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7412,
+   "cena_zl": 7413,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -226,7 +226,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7437,
+   "cena_zl": 7438,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 26,
@@ -242,7 +242,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7457,
+   "cena_zl": 7458,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -258,7 +258,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7457,
+   "cena_zl": 7458,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -270,22 +270,6 @@
     "Port lotniczy Hamad w: Ad-Dauha"
    ],
    "wariant": "30.01 → 14.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 7634,
-   "linie": "Qatar Airways",
-   "przesiadki": 1,
-   "czas_h": 21,
-   "czas_min": 5,
-   "przesiadki_min": [
-    270
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "24.01 → 16.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
@@ -322,23 +306,23 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7688,
+   "cena_zl": 7690,
    "linie": "Qatar Airways",
    "przesiadki": 1,
-   "czas_h": 26,
-   "czas_min": 45,
+   "czas_h": 21,
+   "czas_min": 5,
    "przesiadki_min": [
-    610
+    270
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Hamad w: Ad-Dauha"
    ],
-   "wariant": "27.01 → 16.02",
+   "wariant": "26.01 → 16.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7712,
+   "cena_zl": 7713,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -354,7 +338,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7959,
+   "cena_zl": 7963,
    "linie": "Qatar Airways i Virgin Australia",
    "przesiadki": 1,
    "czas_h": 19,
@@ -370,7 +354,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7959,
+   "cena_zl": 7963,
    "linie": "Qatar Airways i Virgin Australia",
    "przesiadki": 1,
    "czas_h": 19,
@@ -397,18 +381,34 @@
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
    ],
-   "wariant": "24.01 → 10.02",
+   "wariant": "25.01 → 16.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7974,
+   "cena_zl": 7977,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "25.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 7977,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -418,29 +418,29 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7974,
+   "cena_zl": 7977,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
    ],
-   "wariant": "25.01 → 16.02",
+   "wariant": "26.01 → 16.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7974,
+   "cena_zl": 7977,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -450,13 +450,13 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 7974,
+   "cena_zl": 7977,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -466,7 +466,55 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8107,
+   "cena_zl": 8025,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "24.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8047,
+   "linie": "Qatar Airways i Virgin Australia",
+   "przesiadki": 1,
+   "czas_h": 19,
+   "czas_min": 55,
+   "przesiadki_min": [
+    200
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "27.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8079,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 26,
+   "czas_min": 45,
+   "przesiadki_min": [
+    610
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "27.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8109,
    "linie": "Qatar Airways i Virgin Australia",
    "przesiadki": 1,
    "czas_h": 20,
@@ -482,7 +530,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8109,
+   "cena_zl": 8111,
    "linie": "Qatar Airways i Virgin Australia",
    "przesiadki": 1,
    "czas_h": 20,
@@ -509,50 +557,18 @@
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
    ],
-   "wariant": "24.01 → 16.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8134,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
    "wariant": "28.01 → 16.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8223,
+   "cena_zl": 8227,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "25.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8223,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -562,13 +578,77 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8239,
+   "cena_zl": 8242,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "25.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8242,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "25.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8242,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "26.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8242,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "26.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8242,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -578,50 +658,18 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8257,
-   "linie": "Qatar Airways i Virgin Australia",
-   "przesiadki": 1,
-   "czas_h": 19,
-   "czas_min": 55,
-   "przesiadki_min": [
-    200
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "27.01 → 16.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8399,
+   "cena_zl": 8242,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
    ],
-   "wariant": "24.01 → 14.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8399,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "24.01 → 13.02",
+   "wariant": "27.01 → 14.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
@@ -642,13 +690,13 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8491,
+   "cena_zl": 8462,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -664,7 +712,7 @@
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -674,279 +722,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 8696,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "25.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8696,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "26.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8696,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "27.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8840,
-   "linie": "Qatar Airways",
-   "przesiadki": 1,
-   "czas_h": 21,
-   "czas_min": 5,
-   "przesiadki_min": [
-    270
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "29.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8840,
-   "linie": "Qatar Airways",
-   "przesiadki": 1,
-   "czas_h": 21,
-   "czas_min": 5,
-   "przesiadki_min": [
-    270
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "29.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8856,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "24.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8867,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "29.01 → 13.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8924,
-   "linie": "Qatar Airways",
-   "przesiadki": 1,
-   "czas_h": 21,
-   "czas_min": 5,
-   "przesiadki_min": [
-    270
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "29.01 → 13.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8924,
-   "linie": "Qatar Airways",
-   "przesiadki": 1,
-   "czas_h": 21,
-   "czas_min": 5,
-   "przesiadki_min": [
-    270
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "29.01 → 14.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8953,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "28.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8989,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "29.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 8989,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "29.01 → 16.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9024,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "30.01 → 16.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9052,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "30.01 → 13.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9135,
-   "linie": "Qatar Airways",
-   "przesiadki": 1,
-   "czas_h": 21,
-   "czas_min": 5,
-   "przesiadki_min": [
-    270
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha"
-   ],
-   "wariant": "29.01 → 16.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9163,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "30.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9278,
-   "linie": "Emirates",
-   "przesiadki": 1,
-   "czas_h": 20,
-   "czas_min": 50,
-   "przesiadki_min": [
-    230
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Dubaj w: Dubaj"
-   ],
-   "wariant": "29.01 → 14.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9285,
+   "cena_zl": 8648,
    "linie": "Qatar Airways i Virgin Australia",
    "przesiadki": 1,
    "czas_h": 19,
@@ -957,18 +733,354 @@
    "przesiadki_gdzie": [
     "Port lotniczy Hamad w: Ad-Dauha"
    ],
-   "wariant": "27.01 → 13.02",
+   "wariant": "27.01 → 16.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 9405,
+   "cena_zl": 8699,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "25.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8699,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "26.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8699,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "27.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8816,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "29.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8841,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "29.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8868,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "24.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8868,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "28.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8870,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "29.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8925,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "29.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8925,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "29.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8957,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "30.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8982,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "24.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8992,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "29.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 8992,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "29.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9028,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "30.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9130,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "26.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9166,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "30.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9247,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "24.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9247,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "24.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9281,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "29.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9355,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 15,
+   "przesiadki_min": [
+    145
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "28.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9408,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -978,13 +1090,13 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 9451,
+   "cena_zl": 9454,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -994,7 +1106,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 9519,
+   "cena_zl": 9520,
    "linie": "Qatar Airways",
    "przesiadki": 1,
    "czas_h": 21,
@@ -1010,13 +1122,45 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 9579,
+   "cena_zl": 9520,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 26,
+   "czas_min": 45,
+   "przesiadki_min": [
+    610
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "25.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9527,
+   "linie": "Qatar Airways",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 5,
+   "przesiadki_min": [
+    270
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "29.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9582,
    "linie": "Emirates",
    "przesiadki": 1,
    "czas_h": 20,
    "czas_min": 50,
    "przesiadki_min": [
-    230
+    265
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Dubaj w: Dubaj"
@@ -1026,35 +1170,34 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 9758,
-   "linie": "SWISS i Singapore Airlines",
-   "przesiadki": 2,
-   "czas_h": 26,
-   "czas_min": 40,
-   "przesiadki_min": [
-    380
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Zurych-Kloten w: Zurych",
-    "Port lotniczy Singapur-Changi w: Singapur"
-   ],
-   "wariant": "30.01 → 13.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 9770,
+   "cena_zl": 9701,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
-   "czas_h": 22,
-   "czas_min": 20,
+   "czas_h": 21,
+   "czas_min": 55,
    "przesiadki_min": [
-    150
+    125
    ],
    "przesiadki_gdzie": [
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
-   "wariant": "24.01 → 16.02",
+   "wariant": "27.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9704,
+   "linie": "Emirates",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 50,
+   "przesiadki_min": [
+    265
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Dubaj w: Dubaj"
+   ],
+   "wariant": "24.01 → 12.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
@@ -1075,23 +1218,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 9971,
-   "linie": "British Airways i Qantas",
-   "przesiadki": 1,
-   "czas_h": 22,
-   "czas_min": 0,
-   "przesiadki_min": [
-    130
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Londyn-Heathrow w: Londyn"
-   ],
-   "wariant": "25.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 10036,
+   "cena_zl": 9774,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 22,
@@ -1102,12 +1229,44 @@
    "przesiadki_gdzie": [
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
-   "wariant": "24.01 → 14.02",
+   "wariant": "24.01 → 10.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 10036,
+   "cena_zl": 9774,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 20,
+   "przesiadki_min": [
+    150
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "24.01 → 16.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 9774,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 15,
+   "przesiadki_min": [
+    145
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "28.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10040,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 22,
@@ -1123,7 +1282,23 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 10061,
+   "cena_zl": 10040,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 20,
+   "przesiadki_min": [
+    150
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "24.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10065,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 22,
@@ -1135,6 +1310,38 @@
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
    "wariant": "24.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10065,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 15,
+   "przesiadki_min": [
+    145
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "28.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10134,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 0,
+   "przesiadki_min": [
+    130
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "25.01 → 10.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
@@ -1155,7 +1362,23 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 10134,
+   "cena_zl": 10138,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 55,
+   "przesiadki_min": [
+    125
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "27.01 → 10.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10138,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 21,
@@ -1187,7 +1410,55 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 10399,
+   "cena_zl": 10238,
+   "linie": "Qatar Airways i Virgin Australia",
+   "przesiadki": 1,
+   "czas_h": 20,
+   "czas_min": 20,
+   "przesiadki_min": [
+    225
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Hamad w: Ad-Dauha"
+   ],
+   "wariant": "25.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10404,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 0,
+   "przesiadki_min": [
+    130
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "25.01 → 13.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10404,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 22,
+   "czas_min": 0,
+   "przesiadki_min": [
+    130
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "25.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10404,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 21,
@@ -1198,28 +1469,12 @@
    "przesiadki_gdzie": [
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
-   "wariant": "27.01 → 13.02",
+   "wariant": "27.01 → 14.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 10404,
-   "linie": "British Airways i Qantas",
-   "przesiadki": 1,
-   "czas_h": 22,
-   "czas_min": 15,
-   "przesiadki_min": [
-    145
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Londyn-Heathrow w: Londyn"
-   ],
-   "wariant": "28.01 → 13.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 10425,
+   "cena_zl": 10429,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 22,
@@ -1235,55 +1490,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 10491,
-   "linie": "British Airways i Qantas",
-   "przesiadki": 1,
-   "czas_h": 22,
-   "czas_min": 20,
-   "przesiadki_min": [
-    150
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Londyn-Heathrow w: Londyn"
-   ],
-   "wariant": "24.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 10491,
-   "linie": "British Airways i Qantas",
-   "przesiadki": 1,
-   "czas_h": 22,
-   "czas_min": 15,
-   "przesiadki_min": [
-    145
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Londyn-Heathrow w: Londyn"
-   ],
-   "wariant": "28.01 → 10.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 10491,
-   "linie": "British Airways i Qantas",
-   "przesiadki": 1,
-   "czas_h": 22,
-   "czas_min": 15,
-   "przesiadki_min": [
-    145
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Londyn-Heathrow w: Londyn"
-   ],
-   "wariant": "28.01 → 12.02",
-   "ok": true,
-   "powod_odrzucenia": ""
-  },
-  {
-   "cena_zl": 11120,
+   "cena_zl": 10429,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 21,
@@ -1294,7 +1501,23 @@
    "przesiadki_gdzie": [
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
-   "wariant": "30.01 → 10.02",
+   "wariant": "27.01 → 12.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 10511,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 55,
+   "przesiadki_min": [
+    125
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "30.01 → 13.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
@@ -1315,7 +1538,7 @@
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 11836,
+   "cena_zl": 11289,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 21,
@@ -1326,12 +1549,12 @@
    "przesiadki_gdzie": [
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
-   "wariant": "30.01 → 13.02",
+   "wariant": "30.01 → 10.02",
    "ok": true,
    "powod_odrzucenia": ""
   },
   {
-   "cena_zl": 12869,
+   "cena_zl": 11578,
    "linie": "British Airways i Qantas",
    "przesiadki": 1,
    "czas_h": 21,
@@ -1342,14 +1565,30 @@
    "przesiadki_gdzie": [
     "Port lotniczy Londyn-Heathrow w: Londyn"
    ],
-   "wariant": "27.01 → 12.02",
+   "wariant": "30.01 → 14.02",
+   "ok": true,
+   "powod_odrzucenia": ""
+  },
+  {
+   "cena_zl": 11624,
+   "linie": "British Airways i Qantas",
+   "przesiadki": 1,
+   "czas_h": 21,
+   "czas_min": 55,
+   "przesiadki_min": [
+    125
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Londyn-Heathrow w: Londyn"
+   ],
+   "wariant": "30.01 → 12.02",
    "ok": true,
    "powod_odrzucenia": ""
   }
  ],
  "odrzucone": [
   {
-   "cena_zl": 5749,
+   "cena_zl": 5754,
    "linie": "LOT i Air Mauritius",
    "przesiadki": 2,
    "czas_h": 58,
@@ -1367,79 +1606,7 @@
    "powod_odrzucenia": "czas 58h40 > 28h"
   },
   {
-   "cena_zl": 6123,
-   "linie": "LOT i Air Mauritius",
-   "przesiadki": 2,
-   "czas_h": 42,
-   "czas_min": 35,
-   "przesiadki_min": [
-    385,
-    870
-   ],
-   "przesiadki_gdzie": [
-    "Londyn",
-    "Port lotniczy Mauritius w: Wyspa Mauritius"
-   ],
-   "wariant": "29.01 → 12.02",
-   "ok": false,
-   "powod_odrzucenia": "czas 42h35 > 28h"
-  },
-  {
-   "cena_zl": 6123,
-   "linie": "LOT i Air Mauritius",
-   "przesiadki": 2,
-   "czas_h": 42,
-   "czas_min": 35,
-   "przesiadki_min": [
-    385,
-    870
-   ],
-   "przesiadki_gdzie": [
-    "Londyn",
-    "Port lotniczy Mauritius w: Wyspa Mauritius"
-   ],
-   "wariant": "29.01 → 14.02",
-   "ok": false,
-   "powod_odrzucenia": "czas 42h35 > 28h"
-  },
-  {
-   "cena_zl": 6181,
-   "linie": "LOT i Air Mauritius",
-   "przesiadki": 2,
-   "czas_h": 30,
-   "czas_min": 55,
-   "przesiadki_min": [
-    385,
-    220
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Paryż-Roissy-Charles de Gaulle w: Paryż",
-    "Port lotniczy Mauritius w: Wyspa Mauritius"
-   ],
-   "wariant": "27.01 → 12.02",
-   "ok": false,
-   "powod_odrzucenia": "czas 30h55 > 28h"
-  },
-  {
-   "cena_zl": 6212,
-   "linie": "LOT i Air Mauritius",
-   "przesiadki": 2,
-   "czas_h": 42,
-   "czas_min": 0,
-   "przesiadki_min": [
-    1055,
-    220
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Paryż-Roissy-Charles de Gaulle w: Paryż",
-    "Port lotniczy Mauritius w: Wyspa Mauritius"
-   ],
-   "wariant": "26.01 → 12.02",
-   "ok": false,
-   "powod_odrzucenia": "czas 42h00 > 28h"
-  },
-  {
-   "cena_zl": 6320,
+   "cena_zl": 6324,
    "linie": "LOT i Air Mauritius",
    "przesiadki": 2,
    "czas_h": 53,
@@ -1457,7 +1624,79 @@
    "powod_odrzucenia": "czas 53h55 > 28h"
   },
   {
-   "cena_zl": 7399,
+   "cena_zl": 7891,
+   "linie": "Air France i Air Mauritius",
+   "przesiadki": 2,
+   "czas_h": 25,
+   "czas_min": 10,
+   "przesiadki_min": [
+    145,
+    105
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Paryż-Roissy-Charles de Gaulle w: Paryż",
+    "Port lotniczy Mauritius w: Wyspa Mauritius"
+   ],
+   "wariant": "27.01 → 14.02",
+   "ok": false,
+   "powod_odrzucenia": "przesiadka 2 1h45 < 2h (Port lotniczy Mauritius w: Wys)"
+  },
+  {
+   "cena_zl": 7891,
+   "linie": "Air France i Air Mauritius",
+   "przesiadki": 2,
+   "czas_h": 25,
+   "czas_min": 10,
+   "przesiadki_min": [
+    145,
+    105
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Paryż-Roissy-Charles de Gaulle w: Paryż",
+    "Port lotniczy Mauritius w: Wyspa Mauritius"
+   ],
+   "wariant": "27.01 → 16.02",
+   "ok": false,
+   "powod_odrzucenia": "przesiadka 2 1h45 < 2h (Port lotniczy Mauritius w: Wys)"
+  },
+  {
+   "cena_zl": 7932,
+   "linie": "Finnair i Cathay Pacific",
+   "przesiadki": 2,
+   "czas_h": 44,
+   "czas_min": 35,
+   "przesiadki_min": [
+    165,
+    1215
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Helsinki-Vantaa w: Helsinki",
+    "Port lotniczy Hongkong w: Hongkong"
+   ],
+   "wariant": "26.01 → 10.02",
+   "ok": false,
+   "powod_odrzucenia": "czas 44h35 > 28h"
+  },
+  {
+   "cena_zl": 8109,
+   "linie": "Air France i Qantas",
+   "przesiadki": 2,
+   "czas_h": 23,
+   "czas_min": 30,
+   "przesiadki_min": [
+    65,
+    110
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Paryż-Roissy-Charles de Gaulle w: Paryż",
+    "Port lotniczy Singapur-Changi w: Singapur"
+   ],
+   "wariant": "30.01 → 16.02",
+   "ok": false,
+   "powod_odrzucenia": "przesiadka 1 1h05 < 2h (Port lotniczy Paryż-Roissy-Cha)"
+  },
+  {
+   "cena_zl": 8236,
    "linie": "Air France i Air Mauritius",
    "przesiadki": 2,
    "czas_h": 25,
@@ -1475,43 +1714,7 @@
    "powod_odrzucenia": "przesiadka 2 1h45 < 2h (Port lotniczy Mauritius w: Wys)"
   },
   {
-   "cena_zl": 7542,
-   "linie": "Qatar Airways i Virgin Australia",
-   "przesiadki": 2,
-   "czas_h": 46,
-   "czas_min": 10,
-   "przesiadki_min": [
-    250,
-    1215
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha",
-    "Port lotniczy Adelaide w: Adelaide"
-   ],
-   "wariant": "30.01 → 12.02",
-   "ok": false,
-   "powod_odrzucenia": "czas 46h10 > 28h"
-  },
-  {
-   "cena_zl": 7607,
-   "linie": "Qatar Airways i Virgin Australia",
-   "przesiadki": 2,
-   "czas_h": 30,
-   "czas_min": 40,
-   "przesiadki_min": [
-    250,
-    285
-   ],
-   "przesiadki_gdzie": [
-    "Port lotniczy Hamad w: Ad-Dauha",
-    "Port lotniczy Adelaide w: Adelaide"
-   ],
-   "wariant": "30.01 → 13.02",
-   "ok": false,
-   "powod_odrzucenia": "czas 30h40 > 28h"
-  },
-  {
-   "cena_zl": 7886,
+   "cena_zl": 8266,
    "linie": "Air France i Air Mauritius",
    "przesiadki": 2,
    "czas_h": 25,
@@ -1524,9 +1727,45 @@
     "Port lotniczy Paryż-Roissy-Charles de Gaulle w: Paryż",
     "Port lotniczy Mauritius w: Wyspa Mauritius"
    ],
-   "wariant": "27.01 → 16.02",
+   "wariant": "27.01 → 13.02",
    "ok": false,
    "powod_odrzucenia": "przesiadka 2 1h45 < 2h (Port lotniczy Mauritius w: Wys)"
+  },
+  {
+   "cena_zl": 8335,
+   "linie": "LOT, Lufthansa i Qantas",
+   "przesiadki": 2,
+   "czas_h": 23,
+   "czas_min": 50,
+   "przesiadki_min": [
+    205,
+    80
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Monachium w: Monachium",
+    "Port lotniczy Singapur-Changi w: Singapur"
+   ],
+   "wariant": "30.01 → 10.02",
+   "ok": false,
+   "powod_odrzucenia": "przesiadka 2 1h20 < 2h (Port lotniczy Singapur-Changi )"
+  },
+  {
+   "cena_zl": 8335,
+   "linie": "Lufthansa i Qantas",
+   "przesiadki": 2,
+   "czas_h": 23,
+   "czas_min": 45,
+   "przesiadki_min": [
+    210,
+    80
+   ],
+   "przesiadki_gdzie": [
+    "Port lotniczy Monachium w: Monachium",
+    "Port lotniczy Singapur-Changi w: Singapur"
+   ],
+   "wariant": "30.01 → 10.02",
+   "ok": false,
+   "powod_odrzucenia": "przesiadka 2 1h20 < 2h (Port lotniczy Singapur-Changi )"
   }
  ]
 }
