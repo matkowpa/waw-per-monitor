@@ -69,11 +69,13 @@ def main():
     oferty_rows = []
     for o in oferty[:8]:
         cz = f"{o['czas_h']}h{o.get('czas_min', 0):02d}" if o.get("czas_h") is not None else "—"
-        prz = f"{o['przesiadka_min']//60}h{o['przesiadka_min']%60:02d}" if o.get("przesiadka_min") else "—"
+        _pm = o.get("przesiadki_min") or []
+        _pg = o.get("przesiadki_gdzie") or []
+        prz = "; ".join(f"{x//60}h{x%60:02d} {g}" for x, g in zip(_pm, _pg)) or "bezpośrednio"
         warn = ' <span class="alarm">⚠ ≤5 500</span>' if o["cena_zl"] <= ALARM else ""
         oferty_rows.append(
             f"<tr><td>{o['wariant']}</td><td><b>{o['cena_zl']:,}</b> zł{warn}</td>"
-            f"<td>{o['linie']}</td><td>{o['przesiadki']}</td><td>{cz}</td><td>{prz} {o.get('przesiadka_gdzie') or ''}</td></tr>"
+            f"<td>{o['linie']}</td><td>{o['przesiadki']}</td><td>{cz}</td><td>{prz}</td></tr>"
         )
     oferta_tbl = ("\n".join(oferty_rows)
                   or "<tr><td colspan='6'>Brak ofert spełniających kryteria w ostatnim pomiarze</td></tr>")
