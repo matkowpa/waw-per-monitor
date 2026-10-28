@@ -162,11 +162,22 @@
  },
  {
   "date": "2026-10-27",
-  "price_usd": null,
-  "price_pln": null,
+  "price_usd": 1800.1,
+  "price_pln": 7073,
+  "kurs": 3.9293,
+  "source": "https://www.google.com/travel/flights (gf-all.js)",
+  "title": "GF siatka 35 par dat WAW-PER, 98 ofert OK; najtansza: 24.01 → 10.02 Qatar Airways",
+  "n_cen_w_wyniku": 98,
+  "wszystkie_ceny_usd": []
+ },
+ {
+  "date": "2026-10-28",
+  "price_usd": 1697.44,
+  "price_pln": 6712,
   "kurs": 3.9542,
-  "source": "brak danych",
-  "title": "",
-  "n_cen_w_wyniku": 0
+  "source": "https://www.google.com/travel/flights (gf-full.js)",
+  "title": "GF siatka 35 par dat WAW-PER, 100 ofert OK; najtansza: 26.01 → 10.02 Qatar Airways",
+  "n_cen_w_wyniku": 100,
+  "wszystkie_ceny_usd": []
  }
 ]
