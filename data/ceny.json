@@ -243,5 +243,22 @@
    1442,
    1565
   ]
+ },
+ {
+  "date": "2026-11-03",
+  "price_usd": 1220,
+  "price_pln": 4822,
+  "kurs": 3.9526,
+  "source": "https://www.skyscanner.com.au/routes/per/wars/perth-to-warsaw.html",
+  "title": "$1,220 Cheap Flights from Perth (PER) to Warsaw (WARS) in 2026 | Skyscanner",
+  "n_cen_w_wyniku": 2,
+  "wszystkie_ceny_usd": [
+   1220,
+   1342,
+   1357,
+   1416,
+   1426,
+   1565
+  ]
  }
 ]
