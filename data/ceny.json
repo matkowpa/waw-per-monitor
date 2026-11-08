@@ -323,5 +323,20 @@
    1342,
    1416
   ]
+ },
+ {
+  "date": "2026-11-08",
+  "price_usd": 1068,
+  "price_pln": 4199,
+  "kurs": 3.9321,
+  "source": "https://www.trip.com/flights/warsaw-to-perth/airfares-waw-per/",
+  "title": "Book Flights from Warsaw (WAW) to Perth (PER) from US$1,068 | Trip.com",
+  "n_cen_w_wyniku": 3,
+  "wszystkie_ceny_usd": [
+   1068,
+   1220,
+   1342,
+   1416
+  ]
  }
 ]
