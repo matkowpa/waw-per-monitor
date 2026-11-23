@@ -531,5 +531,18 @@
    1342,
    1395
   ]
+ },
+ {
+  "date": "2026-11-23",
+  "price_usd": 1056,
+  "price_pln": 4287,
+  "kurs": 4.0601,
+  "source": "https://www.cheapflights.com/flights-to-frederic-chopin-airport/philadelphia-pa/",
+  "title": "$320+ Cheap Flights from Philadelphia to Warsaw Frederic Chopin Airport | Cheapflights",
+  "n_cen_w_wyniku": 1,
+  "wszystkie_ceny_usd": [
+   1056,
+   1342
+  ]
  }
 ]
